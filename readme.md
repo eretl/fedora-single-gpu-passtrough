@@ -101,7 +101,7 @@
 ```
 for g in `find /sys/kernel/iommu_groups/* -maxdepth 0 -type d | sort -V`; do     echo "IOMMU Group ${g##*/}:";     for d in $g/devices/*; do         echo -e "\t$(lspci -nns ${d##*/})";     done; done;
 ```
-    * If you have anything else related to your GPU in the same IOMMU Group create new variable in `kvm.conf` with its address and add it to `start.sh` and `revert.sh`
+ * If you have anything else related to your GPU in the same IOMMU Group create new variable in `kvm.conf` with its address and add it to `start.sh` and `revert.sh`
 
 ## Patch your GPU rom
 * Follow instructions in [NVIDIA vBIOS VFIO Patcher repository](https://github.com/Matoking/NVIDIA-vBIOS-VFIO-Patcher)
