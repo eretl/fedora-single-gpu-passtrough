@@ -1,17 +1,16 @@
-# Fedora 34 Single GPU Passtrough [Ryzen, NVIDIA]
+# Fedora 34/35 Single GPU Passtrough [Ryzen, NVIDIA]
 
 ## Tested on
 ### Hardware
-**CPU:** Ryzen 5 2600X  
-**Motherboard:**  AsRock B450M PRO4 [Bios ver. 5.20]  
+**CPU:** Ryzen 5 2600X, Ryzen 5 5600G  
+**Motherboard:**  AsRock B450M PRO4 [Bios ver. 5.20], AsRock B550M PRO4 [Bios ver. 2.20]
 **RAM:** 4x8GB  
 **GPU:** Gainward GTX 1060 3 GB  
 **SSD:** Samsung SSD 860 EVO 1TB
 
 ### Software
-**OS:** Fedora 34  
-**Kernel:** 5.13.12-200.fc34.x86_64  
-**Desktop Manager:** Gnome 40.4.0 (X11)  
+**OS:** Fedora 34, Fedora 35   
+**Desktop Manager:** Gnome 40.4.0 (X11), Gnome 41 (X11)  
 
 ## System preparation
 ### Bios
@@ -22,7 +21,7 @@
 * Disable Secure Boot
 
 ### System
-* Install Fedora 34
+* Install Fedora 34 or 35
 * Update to the latest version
 * Install nvidia drivers
 
